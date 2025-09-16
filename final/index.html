@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charuka Nishala Bandara - Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white shadow-lg z-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="text-xl font-bold text-blue-600">Charuka Nishala Bandara</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#about" class="nav-link text-gray-700 hover:text-blue-600 transition-colors">About Me</a>
+                    <a href="#projects" class="nav-link text-gray-700 hover:text-blue-600 transition-colors">Projects</a>
+                    <a href="#skills" class="nav-link text-gray-700 hover:text-blue-600 transition-colors">Skills</a>
+                    <a href="#timeline" class="nav-link text-gray-700 hover:text-blue-600 transition-colors">Timeline</a>
+                    <a href="#awards" class="nav-link text-gray-700 hover:text-blue-600 transition-colors">Awards</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-gray-700 hover:text-blue-600">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden pb-4">
+                <a href="#about" class="block py-2 text-gray-700 hover:text-blue-600 transition-colors">About Me</a>
+                <a href="#projects" class="block py-2 text-gray-700 hover:text-blue-600 transition-colors">Projects</a>
+                <a href="#skills" class="block py-2 text-gray-700 hover:text-blue-600 transition-colors">Skills</a>
+                <a href="#timeline" class="block py-2 text-gray-700 hover:text-blue-600 transition-colors">Timeline</a>
+                <a href="#awards" class="block py-2 text-gray-700 hover:text-blue-600 transition-colors">Awards</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-20 pb-16 bg-gradient-to-br from-blue-600 to-purple-700 text-white">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">Charuka Nishala Bandara</h1>
+            <p class="text-xl md:text-2xl mb-8 opacity-90">AI Research Engineer | Computer Vision Specialist</p>
+            <div class="flex justify-center space-x-6 mb-8">
+                <a href="mailto:nishalakb@gmail.com" class="text-white hover:text-blue-200 transition-colors">
+                    <i class="fas fa-envelope text-2xl"></i>
+                </a>
+                <a
+href="https://github.com/CharuNish"
+target="_blank"
+class="text-white hover:text-blue-200 transition-colors"
+>
+                    <i class="fab fa-github text-2xl"></i>
+                </a>
+                <span class="text-white cursor-default" title="+9470 421 8124">
+                    <i class="fas fa-phone text-2xl"></i>
+                </span>
+            </div>
+            <a href="#about" class="inline-block bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-blue-50 transition-colors">
+                Learn More About Me
+            </a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">About Me</h2>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <p class="text-lg mb-6 leading-relaxed">
+                        A hardworking, passionate Electronic and Telecommunication Engineering graduand with a strong foundation in Mathematics and Computer Vision. Eager to embrace new challenges and deliver excellence to its finest.
+                    </p>
+                    <p class="text-lg mb-6 leading-relaxed">
+                        Currently working as an AI Research Engineer at Robotics Assistance Devices, conducting applied research and development of AI-driven solutions for security robots and surveillance products. I specialize in building custom multi-object trackers using computer vision techniques for real-time surveillance.
+                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-blue-600 mb-2">Education</h4>
+                            <p class="text-sm">B.Sc. Engineering Honours (First Class)</p>
+                            <p class="text-sm">University of Moratuwa</p>
+                            <p class="text-sm">CGPA: 3.70/4.00</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-blue-600 mb-2">Mathematics Minor</h4>
+                            <p class="text-sm">Perfect CGPA: 4.00/4.00</p>
+                            <p class="text-sm">Strong foundation in mathematical concepts</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-y-6">
+                    <div class="bg-blue-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-4 text-blue-600">Current Role</h3>
+                        <h4 class="font-semibold">AI Research Engineer</h4>
+                        <p class="text-gray-600">Robotics Assistance Devices</p>
+                        <p class="text-sm text-gray-500 mt-2">Mar 2025 - Present</p>
+                    </div>
+                    <div class="bg-purple-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-4 text-purple-600">Previous Experience</h3>
+                        <h4 class="font-semibold">SGI Fellow</h4>
+                        <p class="text-gray-600">Massachusetts Institute of Technology</p>
+                        <p class="text-sm text-gray-500 mt-2">July - Sept 2024</p>
+                    </div>
+                    <div class="bg-green-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-4 text-green-600">Specializations</h3>
+                        <ul class="text-sm space-y-1">
+                            <li>• Computer Vision & AI</li>
+                            <li>• Machine Learning & Deep Learning</li>
+                            <li>• Medical Imaging</li>
+                            <li>• Object Detection & Face Recognition</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">My Projects</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Humanoid Head Project -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded">Final Year Project</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Humanoid Head for a Robot Receptionist</h3>
+                        <p class="text-gray-600 mb-4">Built a humanoid head for a robot receptionist capable of biomimicking human expressions, having natural conversation, recognizing, and re-identifying people. Mainly worked on the face re-identification task.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded">Computer Vision</span>
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded">Face Recognition</span>
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded">AI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- IEEE Hackathon Project -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded">Competition Project</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">IEEE IES Generative AI Hackathon</h3>
+                        <p class="text-gray-600 mb-4">Developed a web application to interpret FBC reports for patients by leveraging vision models for data extraction and LLMs with Retrieval-Augmented Generation (RAG) for robust analysis and interpretation of RBC metrics. Ranked among the top 11 teams globally.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded">Generative AI</span>
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded">Vision Models</span>
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded">LLM</span>
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded">RAG</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Densely Packed Product Detection -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded">Academic Project</span>
+                            <span class="bg-yellow-100 text-yellow-800 text-xs font-semibold px-2.5 py-0.5 rounded">94.7% Accuracy</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Densely Packed Product Detection Model</h3>
+                        <p class="text-gray-600 mb-4">Developed a model to detect objects in densely packed scenes for the module Image Processing and Machine Vision. Used UNet++ architecture with RetinaNet101 backbone, achieving 94.7% accuracy.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded">UNet++</span>
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded">RetinaNet101</span>
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded">Object Detection</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Facial Key Points Detection -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="bg-indigo-100 text-indigo-800 text-xs font-semibold px-2.5 py-0.5 rounded">Personal Project</span>
+                            <span class="bg-yellow-100 text-yellow-800 text-xs font-semibold px-2.5 py-0.5 rounded">86% Accuracy</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Facial Key Points Detection</h3>
+                        <p class="text-gray-600 mb-4">Built a deep learning model based on Residual Convolutional Neural Network and Residual blocks using Keras with Tensorflow 2.0 to detect 15 facial key points.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded">ResNet</span>
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded">Keras</span>
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded">TensorFlow</span>
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded">Computer Vision</span>
+                        </div>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fab fa-github mr-2"></i>
+                            <span>Available on GitHub</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pneumonia Prediction -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="bg-red-100 text-red-800 text-xs font-semibold px-2.5 py-0.5 rounded">Medical AI Project</span>
+                            <span class="bg-yellow-100 text-yellow-800 text-xs font-semibold px-2.5 py-0.5 rounded">87% Accuracy</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Pneumonia Prediction</h3>
+                        <p class="text-gray-600 mb-4">Fine-tuned an EfficientNet deep learning model on 5200 Chest X-ray images to predict the presence of Pneumonia.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded">EfficientNet</span>
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded">Medical Imaging</span>
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded">Deep Learning</span>
+                        </div>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fab fa-github mr-2"></i>
+                            <span>Available on GitHub</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cervical Cancer Risk Prediction -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="bg-red-100 text-red-800 text-xs font-semibold px-2.5 py-0.5 rounded">Medical AI Project</span>
+                            <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded">95.3% Accuracy</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Cervical Cancer Risk Prediction</h3>
+                        <p class="text-gray-600 mb-4">Developed and trained an XGBoost model to predict cervical cancer incidence among 858 patients considering demographic information, habits, and historical medical records.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded">XGBoost</span>
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded">Machine Learning</span>
+                            <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded">Medical Data</span>
+                        </div>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fab fa-github mr-2"></i>
+                            <span>Available on GitHub</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">Skills</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Programming Languages -->
+                <div class="bg-blue-50 p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-4 text-blue-600 flex items-center">
+                        <i class="fas fa-code mr-3"></i>
+                        Programming Languages
+                    </h3>
+                    <div class="space-y-3">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium">Python</span>
+                                <span class="text-sm text-gray-500">Advanced</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-blue-600 h-2 rounded-full" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium">C++</span>
+                                <span class="text-sm text-gray-500">Novice</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-blue-600 h-2 rounded-full" style="width: 40%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Frameworks -->
+                <div class="bg-green-50 p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-4 text-green-600 flex items-center">
+                        <i class="fas fa-layer-group mr-3"></i>
+                        Frameworks
+                    </h3>
+                    <div class="space-y-3">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium">PyTorch</span>
+                                <span class="text-sm text-gray-500">Advanced</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-green-600 h-2 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium">TensorFlow</span>
+                                <span class="text-sm text-gray-500">Advanced</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-green-600 h-2 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium">Keras</span>
+                                <span class="text-sm text-gray-500">Advanced</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-green-600 h-2 rounded-full" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools -->
+                <div class="bg-purple-50 p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-4 text-purple-600 flex items-center">
+                        <i class="fas fa-tools mr-3"></i>
+                        Tools
+                    </h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded">GitHub</span>
+                        <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded">VS Code</span>
+                        <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded">Kaggle</span>
+                        <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded">MATLAB</span>
+                        <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded">SOLIDWORKS</span>
+                    </div>
+                </div>
+
+                <!-- ML/CV Libraries -->
+                <div class="bg-orange-50 p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-4 text-orange-600 flex items-center">
+                        <i class="fas fa-brain mr-3"></i>
+                        ML/CV Libraries
+                    </h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-orange-100 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded">OpenCV</span>
+                        <span class="bg-orange-100 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded">NumPy</span>
+                        <span class="bg-orange-100 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded">Pandas</span>
+                        <span class="bg-orange-100 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded">Matplotlib</span>
+                    </div>
+                </div>
+
+                <!-- Technical Skills -->
+                <div class="bg-red-50 p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-4 text-red-600 flex items-center">
+                        <i class="fas fa-cogs mr-3"></i>
+                        Technical Skills
+                    </h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-red-100 text-red-800 text-xs font-semibold px-2.5 py-0.5 rounded">Machine Learning</span>
+                        <span class="bg-red-100 text-red-800 text-xs font-semibold px-2.5 py-0.5 rounded">Deep Learning</span>
+                        <span class="bg-red-100 text-red-800 text-xs font-semibold px-2.5 py-0.5 rounded">Computer Vision</span>
+                        <span class="bg-red-100 text-red-800 text-xs font-semibold px-2.5 py-0.5 rounded">AI</span>
+                        <span class="bg-red-100 text-red-800 text-xs font-semibold px-2.5 py-0.5 rounded">Image Processing</span>
+                        <span class="bg-red-100 text-red-800 text-xs font-semibold px-2.5 py-0.5 rounded">Object Detection</span>
+                        <span class="bg-red-100 text-red-800 text-xs font-semibold px-2.5 py-0.5 rounded">Face Recognition</span>
+                        <span class="bg-red-100 text-red-800 text-xs font-semibold px-2.5 py-0.5 rounded">Medical Imaging</span>
+                        <span class="bg-red-100 text-red-800 text-xs font-semibold px-2.5 py-0.5 rounded">Generative AI</span>
+                        <span class="bg-red-100 text-red-800 text-xs font-semibold px-2.5 py-0.5 rounded">NLP</span>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="bg-teal-50 p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-4 text-teal-600 flex items-center">
+                        <i class="fas fa-users mr-3"></i>
+                        Soft Skills
+                    </h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-teal-100 text-teal-800 text-xs font-semibold px-2.5 py-0.5 rounded">Leadership</span>
+                        <span class="bg-teal-100 text-teal-800 text-xs font-semibold px-2.5 py-0.5 rounded">Research</span>
+                        <span class="bg-teal-100 text-teal-800 text-xs font-semibold px-2.5 py-0.5 rounded">Problem Solving</span>
+                        <span class="bg-teal-100 text-teal-800 text-xs font-semibold px-2.5 py-0.5 rounded">Team Collaboration</span>
+                        <span class="bg-teal-100 text-teal-800 text-xs font-semibold px-2.5 py-0.5 rounded">Project Management</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">Timeline (2020-2025)</h2>
+            <div class="relative">
+                <!-- Timeline Line -->
+                <div class="absolute left-1/2 transform -translate-x-1/2 w-1 bg-blue-300 h-full"></div>
+                
+                <!-- Timeline Events -->
+                <div class="space-y-12">
+                    <!-- 2019 - GCE Advanced Level -->
+                    <div class="flex items-center">
+                        <div class="w-1/2 pr-8 text-right">
+                            <div class="bg-white p-6 rounded-lg shadow-lg">
+                                <div class="text-sm text-blue-600 font-semibold mb-2">December 2019</div>
+                                <h3 class="text-lg font-bold mb-2">GCE Advanced Level Excellence</h3>
+                                <p class="text-gray-600 text-sm">Achieved 4As in Physical Science Stream, All Island Rank 19</p>
+                                <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded mt-2">Education</span>
+                            </div>
+                        </div>
+                        <div class="relative z-10">
+                            <div class="w-4 h-4 bg-blue-600 rounded-full border-4 border-white shadow"></div>
+                        </div>
+                        <div class="w-1/2 pl-8"></div>
+                    </div>
+
+                    <!-- 2021 - University Start -->
+                    <div class="flex items-center">
+                        <div class="w-1/2 pr-8"></div>
+                        <div class="relative z-10">
+                            <div class="w-4 h-4 bg-green-600 rounded-full border-4 border-white shadow"></div>
+                        </div>
+                        <div class="w-1/2 pl-8">
+                            <div class="bg-white p-6 rounded-lg shadow-lg">
+                                <div class="text-sm text-green-600 font-semibold mb-2">August 2021</div>
+                                <h3 class="text-lg font-bold mb-2">Started University Education</h3>
+                                <p class="text-gray-600 text-sm">Began B.Sc. Engineering Honours at University of Moratuwa, majoring in Electronic and Telecommunication Engineering</p>
+                                <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded mt-2">Education</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2021 - Leadership -->
+                    <div class="flex items-center">
+                        <div class="w-1/2 pr-8 text-right">
+                            <div class="bg-white p-6 rounded-lg shadow-lg">
+                                <div class="text-sm text-purple-600 font-semibold mb-2">June 2021</div>
+                                <h3 class="text-lg font-bold mb-2">Leadership Role - Mathematics Society</h3>
+                                <p class="text-gray-600 text-sm">Started as Assistant Secretary, later became Vice President of Mathematics Society</p>
+                                <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded mt-2">Leadership</span>
+                            </div>
+                        </div>
+                        <div class="relative z-10">
+                            <div class="w-4 h-4 bg-purple-600 rounded-full border-4 border-white shadow"></div>
+                        </div>
+                        <div class="w-1/2 pl-8"></div>
+                    </div>
+
+                    <!-- 2022 - Mathematics Minor -->
+                    <div class="flex items-center">
+                        <div class="w-1/2 pr-8"></div>
+                        <div class="relative z-10">
+                            <div class="w-4 h-4 bg-yellow-600 rounded-full border-4 border-white shadow"></div>
+                        </div>
+                        <div class="w-1/2 pl-8">
+                            <div class="bg-white p-6 rounded-lg shadow-lg">
+                                <div class="text-sm text-yellow-600 font-semibold mb-2">May 2022</div>
+                                <h3 class="text-lg font-bold mb-2">Mathematics Minor Program</h3>
+                                <p class="text-gray-600 text-sm">Started Mathematics minor with perfect 4.00/4.00 CGPA</p>
+                                <span class="inline-block bg-yellow-100 text-yellow-800 text-xs font-semibold px-2.5 py-0.5 rounded mt-2">Education</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2023 - IEEE Award -->
+                    <div class="flex items-center">
+                        <div class="w-1/2 pr-8 text-right">
+                            <div class="bg-white p-6 rounded-lg shadow-lg">
+                                <div class="text-sm text-red-600 font-semibold mb-2">March 2023</div>
+                                <h3 class="text-lg font-bold mb-2">IEEE Video Processing Competition</h3>
+                                <p class="text-gray-600 text-sm">Achieved 11th place globally in IEEE Video and Image Processing Cup</p>
+                                <span class="inline-block bg-red-100 text-red-800 text-xs font-semibold px-2.5 py-0.5 rounded mt-2">Award</span>
+                            </div>
+                        </div>
+                        <div class="relative z-10">
+                            <div class="w-4 h-4 bg-red-600 rounded-full border-4 border-white shadow"></div>
+                        </div>
+                        <div class="w-1/2 pl-8"></div>
+                    </div>
+
+                    <!-- 2023 - AI Internship -->
+                    <div class="flex items-center">
+                        <div class="w-1/2 pr-8"></div>
+                        <div class="relative z-10">
+                            <div class="w-4 h-4 bg-indigo-600 rounded-full border-4 border-white shadow"></div>
+                        </div>
+                        <div class="w-1/2 pl-8">
+                            <div class="bg-white p-6 rounded-lg shadow-lg">
+                                <div class="text-sm text-indigo-600 font-semibold mb-2">November 2023</div>
+                                <h3 class="text-lg font-bold mb-2">AI Engineering Internship</h3>
+                                <p class="text-gray-600 text-sm">Started AI Engineering Internship at BPH 200 Ventures Pte. Ltd, focusing on tea leaf classification using ML and CV</p>
+                                <span class="inline-block bg-indigo-100 text-indigo-800 text-xs font-semibold px-2.5 py-0.5 rounded mt-2">Work</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2024 - MIT Fellowship -->
+                    <div class="flex items-center">
+                        <div class="w-1/2 pr-8 text-right">
+                            <div class="bg-white p-6 rounded-lg shadow-lg">
+                                <div class="text-sm text-pink-600 font-semibold mb-2">July 2024</div>
+                                <h3 class="text-lg font-bold mb-2">MIT Summer Geometry Initiative</h3>
+                                <p class="text-gray-600 text-sm">Selected as SGI Fellow at Massachusetts Institute of Technology for geometry processing research</p>
+                                <span class="inline-block bg-pink-100 text-pink-800 text-xs font-semibold px-2.5 py-0.5 rounded mt-2">Work</span>
+                            </div>
+                        </div>
+                        <div class="relative z-10">
+                            <div class="w-4 h-4 bg-pink-600 rounded-full border-4 border-white shadow"></div>
+                        </div>
+                        <div class="w-1/2 pl-8"></div>
+                    </div>
+
+                    <!-- 2025 - Current Role -->
+                    <div class="flex items-center">
+                        <div class="w-1/2 pr-8"></div>
+                        <div class="relative z-10">
+                            <div class="w-4 h-4 bg-emerald-600 rounded-full border-4 border-white shadow"></div>
+                        </div>
+                        <div class="w-1/2 pl-8">
+                            <div class="bg-white p-6 rounded-lg shadow-lg">
+                                <div class="text-sm text-emerald-600 font-semibold mb-2">March 2025</div>
+                                <h3 class="text-lg font-bold mb-2">AI Research Engineer Role</h3>
+                                <p class="text-gray-600 text-sm">Started as AI Research Engineer at Robotics Assistance Devices, working on security robots and surveillance</p>
+                                <span class="inline-block bg-emerald-100 text-emerald-800 text-xs font-semibold px-2.5 py-0.5 rounded mt-2">Work</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2025 - Expected Graduation -->
+                    <div class="flex items-center">
+                        <div class="w-1/2 pr-8 text-right">
+                            <div class="bg-white p-6 rounded-lg shadow-lg border-2 border-blue-200">
+                                <div class="text-sm text-blue-600 font-semibold mb-2">Expected 2025</div>
+                                <h3 class="text-lg font-bold mb-2">University Graduation</h3>
+                                <p class="text-gray-600 text-sm">Expected graduation with First Class Honours in Electronic and Telecommunication Engineering</p>
+                                <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded mt-2">Education</span>
+                            </div>
+                        </div>
+                        <div class="relative z-10">
+                            <div class="w-4 h-4 bg-blue-600 rounded-full border-4 border-white shadow animate-pulse"></div>
+                        </div>
+                        <div class="w-1/2 pl-8"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section id="awards" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">Awards & Recognition</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- IEEE Video Processing Cup -->
+                <div class="bg-gradient-to-br from-yellow-50 to-orange-50 p-6 rounded-lg shadow-lg border border-yellow-200">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-trophy text-yellow-600 text-2xl mr-3"></i>
+                        <span class="bg-yellow-100 text-yellow-800 text-xs font-semibold px-2.5 py-0.5 rounded">2023</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">IEEE Video and Image Processing Cup</h3>
+                    <p class="text-gray-600 mb-2">Globally 11th</p>
+                    <p class="text-sm text-gray-500">Online</p>
+                </div>
+
+                <!-- IMO 2018 -->
+                <div class="bg-gradient-to-br from-blue-50 to-indigo-50 p-6 rounded-lg shadow-lg border border-blue-200">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-medal text-blue-600 text-2xl mr-3"></i>
+                        <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded">2018</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">International Mathematics Olympiad</h3>
+                    <p class="text-gray-600 mb-2">Honourable Mention</p>
+                    <p class="text-sm text-gray-500">Cluj-Napoca, Romania</p>
+                </div>
+
+                <!-- IMO 2017 -->
+                <div class="bg-gradient-to-br from-green-50 to-emerald-50 p-6 rounded-lg shadow-lg border border-green-200">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-medal text-green-600 text-2xl mr-3"></i>
+                        <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded">2017</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">International Mathematics Olympiad</h3>
+                    <p class="text-gray-600 mb-2">Honourable Mention</p>
+                    <p class="text-sm text-gray-500">Rio de Janeiro, Brazil</p>
+                </div>
+
+                <!-- APMO 2017 -->
+                <div class="bg-gradient-to-br from-purple-50 to-pink-50 p-6 rounded-lg shadow-lg border border-purple-200">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-award text-purple-600 text-2xl mr-3"></i>
+                        <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded">2017</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Asia Pacific Mathematics Olympiad</h3>
+                    <p class="text-gray-600 mb-2">Honourable Mention</p>
+                    <p class="text-sm text-gray-500">Mexico</p>
+                </div>
+
+                <!-- IMC 2016 Silver -->
+                <div class="bg-gradient-to-br from-gray-50 to-slate-50 p-6 rounded-lg shadow-lg border border-gray-200">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-medal text-gray-600 text-2xl mr-3"></i>
+                        <span class="bg-gray-100 text-gray-800 text-xs font-semibold px-2.5 py-0.5 rounded">2016</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">International Mathematics Competition</h3>
+                    <p class="text-gray-600 mb-2">Silver Medal - Individual</p>
+                    <p class="text-sm text-gray-500">Chiang Mai, Thailand</p>
+                </div>
+
+                <!-- IMC 2016 Team -->
+                <div class="bg-gradient-to-br from-red-50 to-pink-50 p-6 rounded-lg shadow-lg border border-red-200">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-users text-red-600 text-2xl mr-3"></i>
+                        <span class="bg-red-100 text-red-800 text-xs font-semibold px-2.5 py-0.5 rounded">2016</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">International Mathematics Competition</h3>
+                    <p class="text-gray-600 mb-2">First runner up - Team</p>
+                    <p class="text-sm text-gray-500">Chiang Mai, Thailand</p>
+                </div>
+
+                <!-- IMC 2013 Gold -->
+                <div class="bg-gradient-to-br from-yellow-50 to-amber-50 p-6 rounded-lg shadow-lg border border-yellow-300">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-crown text-yellow-600 text-2xl mr-3"></i>
+                        <span class="bg-yellow-100 text-yellow-800 text-xs font-semibold px-2.5 py-0.5 rounded">2013</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">International Mathematics Competition</h3>
+                    <p class="text-gray-600 mb-2">Gold Medal - Individual</p>
+                    <p class="text-sm text-gray-500">Burgas, Bulgaria</p>
+                </div>
+
+                <!-- IMC 2013 Champion -->
+                <div class="bg-gradient-to-br from-emerald-50 to-teal-50 p-6 rounded-lg shadow-lg border border-emerald-300">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-trophy text-emerald-600 text-2xl mr-3"></i>
+                        <span class="bg-emerald-100 text-emerald-800 text-xs font-semibold px-2.5 py-0.5 rounded">2013</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">International Mathematics Competition</h3>
+                    <p class="text-gray-600 mb-2">Champion - Group</p>
+                    <p class="text-sm text-gray-500">Burgas, Bulgaria</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Charuka Nishala Bandara</h3>
+                    <p class="text-gray-300 mb-4">AI Research Engineer passionate about Computer Vision and Machine Learning</p>
+                    <div class="flex space-x-4">
+                        <a href="mailto:nishalakb@gmail.com" class="text-gray-300 hover:text-white transition-colors">
+                            <i class="fas fa-envelope text-xl"></i>
+                        </a>
+                        <a
+href="https://github.com/CharuNish"
+target="_blank"
+class="text-gray-300 hover:text-white transition-colors"
+>
+                            <i class="fab fa-github text-xl"></i>
+                        </a>
+                        <span class="text-gray-300 cursor-default" title="+9470 421 8124">
+                            <i class="fas fa-phone text-xl"></i>
+                        </span>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#about" class="text-gray-300 hover:text-white transition-colors">About Me</a></li>
+                        <li><a href="#projects" class="text-gray-300 hover:text-white transition-colors">Projects</a></li>
+                        <li><a href="#skills" class="text-gray-300 hover:text-white transition-colors">Skills</a></li>
+                        <li><a href="#timeline" class="text-gray-300 hover:text-white transition-colors">Timeline</a></li>
+                        <li><a href="#awards" class="text-gray-300 hover:text-white transition-colors">Awards</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Current Focus</h4>
+                    <ul class="text-gray-300 space-y-2">
+                        <li>• AI Research & Development</li>
+                        <li>• Computer Vision Applications</li>
+                        <li>• Security & Surveillance Systems</li>
+                        <li>• Multi-Object Tracking</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p class="text-gray-300">&copy; 2025 Charuka Nishala Bandara. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
