@@ -427,7 +427,47 @@ document.addEventListener('DOMContentLoaded', function() {
             document.head.appendChild(link);
         });
     }
-    
+    // Rotating subtitle with fade
+    const subtitles = [
+    "AI Research Engineer",
+    "Researcher",
+    "Computer Vision Enthusiast"
+    ];
+
+    let subtitleIndex = 0;
+    const subtitleEl = document.getElementById("subtitle");
+
+    function showNextSubtitle() {
+    if (!subtitleEl) return;
+
+    // fade out
+    subtitleEl.style.opacity = "0";
+
+    // after fade-out, swap text and fade in
+    setTimeout(() => {
+        subtitleEl.textContent = subtitles[subtitleIndex];
+        subtitleIndex = (subtitleIndex + 1) % subtitles.length;
+
+        // fade in
+        subtitleEl.style.opacity = "1";
+    }, 250); // match CSS transition-ish (300ms); small lead feels snappy
+    }
+
+    // initial render (fade in first item)
+    if (subtitleEl) {
+    subtitleEl.textContent = subtitles[0];
+    // next item index
+    subtitleIndex = 1;
+    // let layout settle, then fade in
+    requestAnimationFrame(() => (subtitleEl.style.opacity = "1"));
+    setInterval(showNextSubtitle, 3000);
+    }
+
+
+    // Initialize and rotate every 3 seconds
+    changeSubtitle();
+    setInterval(changeSubtitle, 1000);
+
     // Initialize resource preloading
     preloadResources();
 });
