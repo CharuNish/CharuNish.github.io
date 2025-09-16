@@ -42,7 +42,7 @@
     <section class="pt-20 pb-16 bg-gradient-to-br from-blue-600 to-purple-700 text-white">
         <div class="max-w-6xl mx-auto px-4 text-center">
             <h1 class="text-4xl md:text-6xl font-bold mb-6">Charuka Nishala Bandara</h1>
-            <p class="text-xl md:text-2xl mb-8 opacity-90">AI Research Engineer | Computer Vision Specialist</p>
+            <p <p id="subtitle"></p>
             <div class="flex justify-center space-x-6 mb-8">
                 <a href="mailto:nishalakb@gmail.com" class="text-white hover:text-blue-200 transition-colors">
                     <i class="fas fa-envelope text-2xl"></i>
@@ -66,56 +66,70 @@ class="text-white hover:text-blue-200 transition-colors"
 
     <!-- About Me Section -->
     <section id="about" class="py-20 bg-white">
-        <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">About Me</h2>
-            <div class="grid md:grid-cols-2 gap-12 items-center">
-                <div>
-                    <p class="text-lg mb-6 leading-relaxed">
-                        A hardworking, passionate Electronic and Telecommunication Engineering graduand with a strong foundation in Mathematics and Computer Vision. Eager to embrace new challenges and deliver excellence to its finest.
-                    </p>
-                    <p class="text-lg mb-6 leading-relaxed">
-                        Currently working as an AI Research Engineer at Robotics Assistance Devices, conducting applied research and development of AI-driven solutions for security robots and surveillance products. I specialize in building custom multi-object trackers using computer vision techniques for real-time surveillance.
-                    </p>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
-                        <div class="bg-gray-50 p-4 rounded-lg">
-                            <h4 class="font-semibold text-blue-600 mb-2">Education</h4>
-                            <p class="text-sm">B.Sc. Engineering Honours (First Class)</p>
-                            <p class="text-sm">University of Moratuwa</p>
-                            <p class="text-sm">CGPA: 3.70/4.00</p>
-                        </div>
-                        <div class="bg-gray-50 p-4 rounded-lg">
-                            <h4 class="font-semibold text-blue-600 mb-2">Mathematics Minor</h4>
-                            <p class="text-sm">Perfect CGPA: 4.00/4.00</p>
-                            <p class="text-sm">Strong foundation in mathematical concepts</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="space-y-6">
-                    <div class="bg-blue-50 p-6 rounded-lg">
-                        <h3 class="text-xl font-semibold mb-4 text-blue-600">Current Role</h3>
-                        <h4 class="font-semibold">AI Research Engineer</h4>
-                        <p class="text-gray-600">Robotics Assistance Devices</p>
-                        <p class="text-sm text-gray-500 mt-2">Mar 2025 - Present</p>
-                    </div>
-                    <div class="bg-purple-50 p-6 rounded-lg">
-                        <h3 class="text-xl font-semibold mb-4 text-purple-600">Previous Experience</h3>
-                        <h4 class="font-semibold">SGI Fellow</h4>
-                        <p class="text-gray-600">Massachusetts Institute of Technology</p>
-                        <p class="text-sm text-gray-500 mt-2">July - Sept 2024</p>
-                    </div>
-                    <div class="bg-green-50 p-6 rounded-lg">
-                        <h3 class="text-xl font-semibold mb-4 text-green-600">Specializations</h3>
-                        <ul class="text-sm space-y-1">
-                            <li>• Computer Vision & AI</li>
-                            <li>• Machine Learning & Deep Learning</li>
-                            <li>• Medical Imaging</li>
-                            <li>• Object Detection & Face Recognition</li>
-                        </ul>
-                    </div>
-                </div>
+    <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">About Me</h2>
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+        <!-- Left column: Intro + Education -->
+        <div>
+            <p class="text-lg mb-6 leading-relaxed">
+            I’m Charuka, an AI Research Engineer at Robotics Assistance Devices, where I design custom multi-object trackers and develop AI-driven computer vision solutions for real-time surveillance.
+            </p>
+            <p class="text-lg mb-6 leading-relaxed">
+            I love Maths, Machine Learning, and challenges—whether that’s solving Sudoku, cooking, dancing, or learning swimming. Adventure keeps me inspired, and so does building technology that pushes boundaries.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
+            <div class="bg-gray-50 p-4 rounded-lg">
+                <h4 class="font-semibold text-blue-600 mb-2">Education</h4>
+                <p class="text-sm">B.Sc. Engineering Honours (First Class)</p>
+                <p class="text-sm">University of Moratuwa</p>
+                <p class="text-sm">CGPA: 3.70/4.00</p>
+            </div>
+            <div class="bg-gray-50 p-4 rounded-lg">
+                <h4 class="font-semibold text-blue-600 mb-2">Mathematics Minor</h4>
+                <p class="text-sm">Perfect CGPA: 4.00/4.00</p>
+                <p class="text-sm">Strong foundation in mathematical concepts</p>
+            </div>
             </div>
         </div>
+
+        <!-- Right column: Roles + Specializations -->
+        <div class="space-y-6">
+            <div class="bg-blue-50 p-6 rounded-lg">
+            <h3 class="text-xl font-semibold mb-4 text-blue-600">Current Role</h3>
+            <h4 class="font-semibold">AI Research Engineer</h4>
+            <p class="text-gray-600">Robotics Assistance Devices</p>
+            <p class="text-sm text-gray-500 mt-2">Mar 2025 - Present</p>
+            </div>
+
+            <!-- Merged Previous Experience -->
+            <div class="bg-purple-50 p-6 rounded-lg">
+            <h3 class="text-xl font-semibold mb-4 text-purple-600">Previous Experience</h3>
+            <div class="mb-4">
+                <h4 class="font-semibold">AI Research Engineering Intern</h4>
+                <p class="text-gray-600">Robotics Assistance Devices</p>
+                <p class="text-sm text-gray-500 mt-2">Nov 2023 - Mar 2025</p>
+            </div>
+            <div>
+                <h4 class="font-semibold">SGI Fellow</h4>
+                <p class="text-gray-600">Massachusetts Institute of Technology</p>
+                <p class="text-sm text-gray-500 mt-2">July - Sept 2024</p>
+            </div>
+            </div>
+
+            <div class="bg-green-50 p-6 rounded-lg">
+            <h3 class="text-xl font-semibold mb-4 text-green-600">Specializations</h3>
+            <ul class="text-sm space-y-1">
+                <li>• Computer Vision & AI</li>
+                <li>• Machine Learning & Deep Learning</li>
+                <li>• Medical Imaging</li>
+                <li>• Object Detection & Face Recognition</li>
+            </ul>
+            </div>
+        </div>
+        </div>
+    </div>
     </section>
+
 
     <!-- Projects Section -->
     <section id="projects" class="py-20 bg-gray-50">
