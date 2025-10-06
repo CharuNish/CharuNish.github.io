@@ -72,9 +72,15 @@ class="text-white hover:text-blue-200 transition-colors"
         <!-- Bio card with photo -->
         <div class="bg-white/70 backdrop-blur-lg border border-gray-200 rounded-2xl shadow-sm p-6 md:p-8 max-w-3xl mx-auto card-hover">
         <div class="flex flex-col sm:flex-row items-center gap-6">
-            <!-- Avatar with gradient ring -->
-            <div class="bg-gradient-to-tr from-blue-500 via-violet-500 to-pink-500 p-[3px] rounded-full">
-            <img src="img/me.jpg" alt="Charuka Bandara" class="w-28 h-28 sm:w-32 sm:h-32 rounded-full object-cover bg-white" />
+            <!-- Avatar with fixed square + gradient ring -->
+            <div class="shrink-0 bg-gradient-to-tr from-blue-500 via-violet-500 to-pink-500 p-[3px] rounded-full">
+            <div class="w-24 h-24 sm:w-32 sm:h-32 md:w-36 md:h-36 rounded-full overflow-hidden bg-white">
+                <img
+                src="img/me.jpg"
+                alt="Charuka Bandara"
+                class="w-full h-full object-cover object-center"
+                />
+            </div>
             </div>
 
             <p class="about-text text-gray-700 leading-7 text-[1.05rem]">

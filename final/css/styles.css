@@ -397,3 +397,6 @@ nav {
 .emoji-wave.animate { animation: handwave 1.8s ease-in-out 1; }
 
 .soft-list li { margin-bottom: .35rem; }
+
+/* Prevent avatar from shrinking in flex */
+.about-avatar { flex: 0 0 auto; }
