@@ -350,7 +350,7 @@ nav {
 }
 
 /* Dark mode support */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
     body { background-color: #111827; color: #f9fafb; }
     nav  { background-color: rgba(17, 24, 39, 0.95); }
 
@@ -367,7 +367,7 @@ nav {
         background: #111827;
         border-color: #374151;
     }
-}
+} */
 
 /* Custom scrollbar */
 ::-webkit-scrollbar { width: 8px; }
