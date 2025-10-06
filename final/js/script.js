@@ -430,9 +430,10 @@ document.addEventListener('DOMContentLoaded', function() {
     // Rotating subtitle with fade
     const subtitles = [
     "AI Research Engineer",
-    "Researcher",
+    "Machine Learning Researcher",
+    "Lifelong Learner",
     "Computer Vision Enthusiast"
-    ];
+];
 
     let subtitleIndex = 0;
     const subtitleEl = document.getElementById("subtitle");
