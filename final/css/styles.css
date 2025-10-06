@@ -390,3 +390,10 @@ nav {
     animation: spin 1s linear infinite;
 }
 @keyframes spin { to { transform: rotate(360deg); } }
+
+/* About section extras */
+.emoji-wave { display:inline-block; transform-origin:70% 70%; }
+@keyframes handwave { 0%{transform:rotate(0)} 10%{transform:rotate(14deg)} 20%{transform:rotate(-8deg)} 30%{transform:rotate(14deg)} 40%{transform:rotate(-4deg)} 50%{transform:rotate(10deg)} 60%{transform:rotate(0)} 100%{transform:rotate(0)} }
+.emoji-wave.animate { animation: handwave 1.8s ease-in-out 1; }
+
+.soft-list li { margin-bottom: .35rem; }

@@ -63,71 +63,92 @@ class="text-white hover:text-blue-200 transition-colors"
     </section>
 
     <!-- About Me Section -->
-    <section id="about" class="py-20 bg-white">
-    <div class="max-w-6xl mx-auto px-4">
-        <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">About Me</h2>
-        <div class="grid md:grid-cols-2 gap-12 items-center">
-        <!-- Left column: Intro + Education -->
-        <div>
-            <p class="text-lg mb-6 leading-relaxed">
-            With a solid grounding in mathematics and 2+ years’ experience in AI research, I focus on machine learning and computer vision projects that bridge theory and real‑world impact. In my day job, I work on models that see patterns beyond human perception and after hours, I work on cooking recipes or lose myself in books. I’m also learning French and am a beginner at swimming (still working on the breathing btw).
-            </p>
-            
-            <div class="bg-gray-50 p-4 rounded-lg">
-                <h4 class="font-semibold text-blue-600 mb-2">BSc Engineering Honours</h4>
-                <p class="text-sm">University of Moratuwa</p>
-                <p class="text-sm">Major: Electronic and Telecommunication Engineering (First Class)</p>
-                <p class="text-sm">Minor: Mathematics</p>
+    <section id="about" class="py-16">
+    <div class="max-w-6xl mx-auto px-4 md:px-6">
+        <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-10">
+        About Me <span class="emoji-wave animate">👋</span>
+        </h2>
+
+        <!-- Bio card with photo -->
+        <div class="bg-white/70 backdrop-blur-lg border border-gray-200 rounded-2xl shadow-sm p-6 md:p-8 max-w-3xl mx-auto card-hover">
+        <div class="flex flex-col sm:flex-row items-center gap-6">
+            <!-- Avatar with gradient ring -->
+            <div class="bg-gradient-to-tr from-blue-500 via-violet-500 to-pink-500 p-[3px] rounded-full">
+            <img src="img/me.jpeg" alt="Charuka Bandara" class="w-28 h-28 sm:w-32 sm:h-32 rounded-full object-cover bg-white" />
             </div>
-            <!-- </div> -->
+
+            <p class="about-text text-gray-700 leading-7 text-[1.05rem]">
+            With a solid grounding in mathematics and over two years of experience in AI research engineering,
+            I focus on machine learning and computer vision projects that bridge theory and real-world impact.
+            In my day job I build models that uncover patterns beyond human perception; after hours you’ll find
+            me testing new recipes or lost in a book. I’m also learning French and a true beginner at swimming
+            (still working on the breathing!). I believe curiosity and balance fuel both creativity and precision.
+            </p>
+        </div>
         </div>
 
-        <!-- Right column: Roles + Specializations -->
-        <div class="space-y-6">
-            <div class="bg-blue-50 p-6 rounded-lg">
-            <h3 class="text-xl font-semibold mb-4 text-blue-600">Current Role</h3>
-            <div class="mb-4"> 
+        <!-- Row 1: Current Role + Previous Experience -->
+        <div class="grid lg:grid-cols-2 gap-6 mt-10">
+        <!-- Current Role -->
+        <div class="rounded-xl p-6 shadow-sm border border-blue-100 bg-blue-50">
+            <h3 class="text-xl font-semibold mb-2 text-blue-800">Current Role</h3>
+            <div class="space-y-4">
+            <div>
                 <h4 class="font-semibold">AI Research Engineer</h4>
-                <p class="text-gray-600">Robotics Assistance Devices</p>
-                <p class="text-sm text-gray-500 mt-2">Mar 2025 - Present</p>
+                <p class="text-gray-700">Robotics Assistance Devices</p>
+                <p class="text-sm text-gray-500">Mar 2025 – Present</p>
             </div>
             <div>
                 <h4 class="font-semibold">Master by Research in Computer Science</h4>
-                <p class="text-gray-600">University of Moratuwa</p>
-                <p class="text-sm text-gray-500 mt-2">Reading</p>
-            </div>   
+                <p class="text-gray-700">University of Moratuwa</p>
+                <p class="text-sm text-gray-500">Reading</p>
             </div>
+            </div>
+        </div>
 
-            <!-- Merged Previous Experience -->
-            <div class="bg-purple-50 p-6 rounded-lg">
-            <h3 class="text-xl font-semibold mb-4 text-purple-600">Previous Experience</h3>
-            <div class="mb-4">
+        <!-- Previous Experience -->
+        <div class="rounded-xl p-6 shadow-sm border border-purple-100 bg-purple-50">
+            <h3 class="text-xl font-semibold mb-2 text-purple-800">Previous Experience</h3>
+            <div class="space-y-4">
+            <div>
                 <h4 class="font-semibold">AI Research Engineering Intern</h4>
-                <p class="text-gray-600">Pekoe AI</p>
-                <p class="text-sm text-gray-500 mt-2">Nov 2023 - Feb 2025</p>
+                <p class="text-gray-700">Pekoe AI</p>
+                <p class="text-sm text-gray-500">Nov 2022 – May 2023</p>
+                <p class="text-sm text-gray-600">Computer Vision, NLP, Machine Learning</p>
             </div>
             <div>
-                <h4 class="font-semibold">SGI Fellow'24</h4>
-                <p class="text-gray-600">Massachusetts Institute of Technology</p>
-                <p class="text-sm text-gray-500 mt-2">July - Sept 2024</p>
+                <h4 class="font-semibold">SGI Fellow ’24</h4>
+                <p class="text-gray-700">Massachusetts Institute of Technology</p>
+                <p class="text-sm text-gray-500">Jul – Sep 2024</p>
             </div>
             </div>
+        </div>
+        </div>
 
+        <!-- Row 2: Education + Interests -->
+        <div class="grid lg:grid-cols-2 gap-6 mt-6">
+        <!-- Education -->
+        <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
+            <h3 class="text-xl font-semibold mb-2">BSc Engineering Honours</h3>
+            <p class="text-gray-700">University of Moratuwa</p>
+            <p class="text-sm text-gray-500 mt-2">Major: Electronic & Telecommunication Engineering (First Class)</p>
+            <p class="text-sm text-gray-500">Minor: Mathematics</p>
+        </div>
 
-
-            <div class="bg-green-50 p-6 rounded-lg">
-            <h3 class="text-xl font-semibold mb-4 text-green-600">Interests</h3>
-            <ul class="text-sm space-y-1">
-                <li>• Computer Vision & AI</li>
-                <li>• Machine Learning & Deep Learning</li>
-                <li>• Medical Imaging</li>
-                <li>• Object Detection & Face Recognition</li>
+        <!-- Interests -->
+        <div class="rounded-xl p-6 shadow-sm border border-emerald-100 bg-emerald-50">
+            <h3 class="text-xl font-semibold mb-2 text-emerald-900">Interests</h3>
+            <ul class="soft-list text-gray-700">
+            <li>Computer Vision & AI</li>
+            <li>Machine Learning & Deep Learning</li>
+            <li>Medical Imaging</li>
+            <li>Object Detection & Face Recognition</li>
             </ul>
-            </div>
         </div>
         </div>
     </div>
     </section>
+
 
 
     <!-- Projects Section -->
