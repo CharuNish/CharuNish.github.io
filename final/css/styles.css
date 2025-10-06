@@ -452,3 +452,13 @@ nav {
 
 /* Prevent avatar from shrinking in flex */
 .about-avatar { flex: 0 0 auto; }
+
+/* --- Avatar image clarity fix --- */
+img {
+  image-rendering: auto;
+  -webkit-transform: translateZ(0); /* forces GPU smoothing */
+}
+
+
+
+
