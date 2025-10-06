@@ -472,6 +472,4 @@ document.addEventListener('DOMContentLoaded', function() {
     preloadResources();
 });
 
-// Utility functions available globally
 
-// Utility functions are available globally in browser environment
